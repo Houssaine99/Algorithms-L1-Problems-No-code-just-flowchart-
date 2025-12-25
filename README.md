@@ -116,7 +116,7 @@ Flowcharts help in understanding **how an algorithm works**, not just how to wri
 ## 🚀 Next Step
 
 The next stage is to **convert these flowcharts into real code**
-(starting with C++, Java, or Python).
+(starting with C++).
 
 ---
 
