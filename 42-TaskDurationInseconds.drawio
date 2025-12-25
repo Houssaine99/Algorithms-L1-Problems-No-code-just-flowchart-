@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="uXj4eE7u9Z4tK7-aPTo_">
+    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Problem 42: Task duration in seconds&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="93" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4U0wpRmL6mkNIhFm-EUt-2" target="4U0wpRmL6mkNIhFm-EUt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4U0wpRmL6mkNIhFm-EUt-4" target="4U0wpRmL6mkNIhFm-EUt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Read Days, Hours, Minutes, Seconds&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4U0wpRmL6mkNIhFm-EUt-6" target="4U0wpRmL6mkNIhFm-EUt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TotalSeconds = (Days * 24 * 60 * 60) + (Hours * 60 * 60) + (Minutes * 60) + seconds&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="450" width="710" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4U0wpRmL6mkNIhFm-EUt-8" target="4U0wpRmL6mkNIhFm-EUt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4U0wpRmL6mkNIhFm-EUt-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Print TotalSeconds&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

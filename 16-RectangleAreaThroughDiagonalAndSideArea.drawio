@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="Tv1-VxFuNQHD6A9qCQHy">
+    <mxGraphModel dx="1828" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pnX0SSswqilDHvsQIZkw-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Problem: 16: Rectangle area through diagonal and side area&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="43" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnX0SSswqilDHvsQIZkw-2" target="pnX0SSswqilDHvsQIZkw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="43" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="463" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnX0SSswqilDHvsQIZkw-4" target="pnX0SSswqilDHvsQIZkw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Read, Diagonal,Side&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="153" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnX0SSswqilDHvsQIZkw-6" target="pnX0SSswqilDHvsQIZkw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Area = Side * sqrt( (Diagonal* Diagonal)&amp;nbsp;- (Side * Side))&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="253" width="455" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnX0SSswqilDHvsQIZkw-9" target="pnX0SSswqilDHvsQIZkw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnX0SSswqilDHvsQIZkw-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Print Area&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="373" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="zxieNS7_9K7cHr7lmoLT">
+    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Problem 35: Piggy Bank Calculator&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="43" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QSkyZGIM2uiX1ImmXAuH-2" target="QSkyZGIM2uiX1ImmXAuH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855.25" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="854.75" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QSkyZGIM2uiX1ImmXAuH-4" target="QSkyZGIM2uiX1ImmXAuH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Enter, Pennies, Nickles, Dimes, Quarters, Dollars&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="642.25" y="140" width="545" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QSkyZGIM2uiX1ImmXAuH-6" target="QSkyZGIM2uiX1ImmXAuH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TotalPennies = Pennies + (Nickles * 5) + (Dimes * 10) + (Quarters * 25) + (Dollars * 100)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;TotalDollars = TotalPennies / 100&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="649.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QSkyZGIM2uiX1ImmXAuH-8" target="QSkyZGIM2uiX1ImmXAuH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QSkyZGIM2uiX1ImmXAuH-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Print TotalPennies, TotalDollars&amp;nbsp;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="754.88" y="360" width="320.75" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

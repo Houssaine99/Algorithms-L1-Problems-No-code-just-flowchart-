@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="5rqzZR4l4KojcRAVEulm">
+    <mxGraphModel dx="1826" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Problem 50: ATM PIN 3 times&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="93" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-2" target="Z4BaAJdpkWRFl007mcDt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-3" target="Z4BaAJdpkWRFl007mcDt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SavedPIN = 1234&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Balance = 7500&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Counter = 0&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="250" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-4" target="Z4BaAJdpkWRFl007mcDt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Read PIN&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-9" target="Z4BaAJdpkWRFl007mcDt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4BaAJdpkWRFl007mcDt-12">
+          <mxGeometry x="-0.1273" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-9" target="Z4BaAJdpkWRFl007mcDt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4BaAJdpkWRFl007mcDt-28">
+          <mxGeometry x="0.0564" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;PIN = SavedPIN&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="490" width="185" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-11" target="Z4BaAJdpkWRFl007mcDt-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Print Blance is Balance&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="710" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-14" target="Z4BaAJdpkWRFl007mcDt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4BaAJdpkWRFl007mcDt-19">
+          <mxGeometry x="-0.2245" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-14" target="Z4BaAJdpkWRFl007mcDt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4BaAJdpkWRFl007mcDt-34">
+          <mxGeometry x="-0.4197" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Counter = 3&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="502.5" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-18" target="Z4BaAJdpkWRFl007mcDt-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Print Card Blocked&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-26" target="Z4BaAJdpkWRFl007mcDt-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Countre = counter + 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="515" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4BaAJdpkWRFl007mcDt-33" target="Z4BaAJdpkWRFl007mcDt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-33" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Print Wrong PIN&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="515" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4BaAJdpkWRFl007mcDt-37" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
